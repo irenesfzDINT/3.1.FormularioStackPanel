@@ -14,42 +14,45 @@
         >
     <StackPanel Margin="5"
                 MinWidth="400">
-        <StackPanel Margin="5,20,5,20"
+        <StackPanel 
                     MinHeight="60">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
                     <GradientStop Color="White"
-                                  Offset="1" />
-                    <GradientStop Color="#FF6CC95E"
+                                  Offset="0.93" />
+                    <GradientStop Color="#FF41A432"
                                   Offset="0.039" />
                 </LinearGradientBrush>
             </StackPanel.Background>
             <Label FontWeight="Bold"
                        FontSize="16">Nombre</Label>
-            <TextBox Margin="5"
-                     MinWidth="300"></TextBox>
+            <TextBox
+                     MinWidth="300"
+                     Margin="5,10,5,15"></TextBox>
             </StackPanel>
 
-        <StackPanel Margin="5,20,5,20"
+        <StackPanel 
                     MinHeight="60">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
                     <GradientStop Color="#FFBFF3FF"
-                                  Offset="0.709" />
+                                  Offset="0.4" />
                     <GradientStop Color="#FF0DD3FF"
                                   Offset="0.13" />
+                    <GradientStop Color="#FFF9F9F9"
+                                  Offset="0.993" />
                 </LinearGradientBrush>
             </StackPanel.Background>
 
             <Label FontSize="16"
                        FontWeight="Bold">
                  Dirección</Label>
-            <TextBox Margin="5"
+            <TextBox Margin="5,10,5,15"
                      MinWidth="300"></TextBox>
             </StackPanel>
-        <StackPanel Margin="5,20,5,20"
+        <StackPanel
                     MinHeight="60">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1"
@@ -61,7 +64,9 @@
                 </StackPanel.Background>
                 <Label FontSize="16"
                    FontWeight="Bold">Correo electrónico</Label>
-            <TextBox MinWidth="600" Margin="5" HorizontalAlignment="Left"></TextBox>
+            <TextBox MinWidth="600"
+                     Margin="5,10,5,15"
+                     HorizontalAlignment="Left"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Right">
